@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tabula-py = "*"
+camelot-py = "*"
+pypdf2 = "*"
+opencv-python = "*"
+ghostscript = "*"
+matplotlib = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
